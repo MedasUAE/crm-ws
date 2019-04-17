@@ -12,7 +12,7 @@ module.exports = {
         database:process.env.DB_NAME || 'eclinic_samc'
     },
 
-    mongoUrl: "mongodb://localhost:27017/crm",
+    mongoUrl: process.env.MONGOURL || "mongodb://localhost:27017/crm",
     
     mail: {
         name: "mailAPI",
