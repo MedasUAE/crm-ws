@@ -1,7 +1,7 @@
 module.exports = {
     name: "patientAPI",
     env: process.env.NODE_ENV || "development",
-    port: process.env.PORT || 3000,
+    port: process.env.PORT || 3003,
     loglevel: "all", //debug, info, error, all , off
     showconsole: true, //true,false
     db:{
@@ -12,7 +12,7 @@ module.exports = {
         database:process.env.DB_NAME || 'eclinic_samc'
     },
 
-    mongoUrl: process.env.MONGOURL || "mongodb://localhost:27017/crm",
+    mongoUrl: process.env.MONGOURL || "mongodb://medas:medteam2013@ds119606.mlab.com:19606/medas-crm",
     
     mail: {
         name: "mailAPI",
