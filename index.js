@@ -8,7 +8,7 @@ const app = {}
 //init defination
 app.init = function(){
     //GLOBAL DB Object
-    //_mysqldb = mysql.init();
+    _mysqldb = mysql.init();
     _mongodb = mongo.init();
     server.init();
 }
