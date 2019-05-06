@@ -9,7 +9,7 @@ module.exports = {
         user: process.env.DB_USER || 'root',
         password : process.env.DB_PSW || 'medteam2013',
         port : process.env.DB_PORT || 3306, //port mysql
-        database:process.env.DB_NAME || 'eclinic_samc'
+        database:process.env.DB_NAME || 'eclinic_new'
     },
 
     mongoUrl: process.env.MONGOURL || "mongodb://medas:medteam2013@ds119606.mlab.com:19606/medas-crm",
