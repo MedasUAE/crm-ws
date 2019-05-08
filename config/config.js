@@ -12,7 +12,8 @@ module.exports = {
         database:process.env.DB_NAME || 'eclinic_new'
     },
 
-    mongoUrl: process.env.MONGOURL || "mongodb://medas:medteam2013@ds119606.mlab.com:19606/medas-crm",
+   // mongoUrl: process.env.MONGOURL || "mongodb://medas:medteam2013@ds119606.mlab.com:19606/medas-crm",
+    mongoUrl: "mongodb://localhost:27017/crm",
     
     mail: {
         name: "mailAPI",
